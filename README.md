@@ -1,8 +1,12 @@
-# vpn-deploy-kit
+# sing-box-yg-deploy
 
 一台命令，在全新 Ubuntu VPS 上部署 **sing-box 五协议代理**，并自动输出订阅链接和节点卡片。
 
 基于上游脚本 [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg)（原仓库名 `sing-box_hysteria2_tuic_argo_reality` 会自动跳转）。本仓库只做三件事：**把交互式菜单变成非交互命令**、**自动开订阅**、**生成好看的节点卡片**。
+
+仓库地址：https://github.com/deepseekexpo-sketch/sing-box-yg-deploy
+
+> 与 [vpn-deploy-kit](https://github.com/deepseekexpo-sketch/vpn-deploy-kit) 的区别：那个是 3x-ui 面板 + Reality/Hysteria2 双协议；这个是 sing-box 五协议，无面板、更轻。
 
 ## 部署出什么
 
@@ -19,6 +23,8 @@
 ## 快速开始
 
 ```bash
+git clone https://github.com/deepseekexpo-sketch/sing-box-yg-deploy.git
+cd sing-box-yg-deploy
 pip install -r requirements.txt
 
 # 最简：纯 IP、免域名、自签证书、随机端口
