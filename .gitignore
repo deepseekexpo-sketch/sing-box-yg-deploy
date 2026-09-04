@@ -1,0 +1,11 @@
+# 机器节点信息（含真实 IP 与节点链接，不入库）
+machines/*.json
+machines/*.html
+machine-*.json
+nodes-*.html
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
